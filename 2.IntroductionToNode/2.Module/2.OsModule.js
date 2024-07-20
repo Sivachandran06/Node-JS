@@ -12,5 +12,9 @@
  /*const numberOfCpus= os.cpus();
  console.log(numberOfCpus);*/
 
- const totalMemory = os.totalmem();
- console.log(totalMemory);
+ /*const totalMemory = os.totalmem();
+ console.log(totalMemory);*/
+ const frememiry= os.homedir()
+ console.log(frememiry);
+
+

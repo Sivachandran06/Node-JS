@@ -8,7 +8,7 @@ const fsPromiss = require("node:fs").promises;
         console.log(error);
      }); */
 
-     async function readFile(){
+     /*async function readFile(){
         try{
             const data = await fsPromiss.readFile("./fileSystem/file.txt");
             console.log(data.toString());
@@ -17,6 +17,4 @@ const fsPromiss = require("node:fs").promises;
             console.log(error);
         }
      }
-     readFile();
-
-     
+     readFile();*/

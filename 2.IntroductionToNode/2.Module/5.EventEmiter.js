@@ -1,9 +1,10 @@
-const eventEmiter = require("node:events");
+const EventEmiter = require("node:events");
 
-const emiter = new eventEmiter ();
 
-emiter.on("attention", (data)=>{
-    console.log("Okey its attention position", data);
-});
+const emiiter = new EventEmiter();
 
-emiter.emit("attention", 99);
+emiiter.on("attansion",(data)=>{
+    console.log("yes attaion is emmiting", data);
+})
+
+emiiter.emit('attansion',2020);

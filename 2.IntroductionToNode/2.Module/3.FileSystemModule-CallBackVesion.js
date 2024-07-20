@@ -51,11 +51,12 @@ const { connected } = require("node:process");
 
 //------------RENAME a FILE---------------
 
-fs.rename("./fileSystem/fileSystem.txt", 
+/*fs.rename("./fileSystem/fileSystem.txt", 
     "./fileSystem/file.txt", 
     (error)=>{
         if(error){
             console.log(error, " facing error on rename the file");
         }
     }
-);
+);*/
+
