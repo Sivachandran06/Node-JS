@@ -4,9 +4,13 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const homeRoutes = require("./routes/HomeRoutes");
 
+server.use(express.json());
+
 server.use("/api/v1/home",homeRoutes);
 
 dotenv.config();
+
+
 
 //const connectionString = process.env.MONGO_CONNECTION ;
 const connectionString = "mongodb://localhost:27017/CurrencyExpressBackEndProject" //  =>this is dangerous
